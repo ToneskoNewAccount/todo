@@ -83,6 +83,7 @@ export default {
 .to-do-list-container {
   width: 400px;
   margin: auto;
+  padding: auto;
   margin-top: 50px;
   display: block;
   box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
