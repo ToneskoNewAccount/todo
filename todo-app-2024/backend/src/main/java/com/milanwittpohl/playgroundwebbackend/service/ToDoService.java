@@ -16,6 +16,7 @@ public class ToDoService {
 
     public List<ToDo> findAll(){
         return toDoRepository.findAll();
+        
     }
 
     public ToDo findById(String id){
