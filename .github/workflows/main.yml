@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     defaults:
      run:
-      working-directory: ./todo-app-2024/frontend
+      working-directory: ./frontend
 
     steps:
       - uses: actions/checkout@v4
@@ -35,7 +35,7 @@ jobs:
     runs-on: ubuntu-latest
     defaults:
      run:
-      working-directory: ./todo-app-2024/backend
+      working-directory: ./backend
     steps:
       - uses: actions/checkout@v4
       - name: Set up JDK 11
